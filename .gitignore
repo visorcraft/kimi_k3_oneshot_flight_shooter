@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# generated screenshots
+*.png
+
+# temp scratch (kept out of repo; use existing test.mjs + probe.mjs)
+temp-*.mjs
+
+# logs
+*.log
+
+# local env / secrets
+.env
+.env.*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# editor settings
+.vscode/
+.idea/
